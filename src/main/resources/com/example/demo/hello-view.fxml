@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <AnchorPane prefHeight="400.0" prefWidth="600.0">
+        <Button layoutX="248.0" layoutY="228.0" mnemonicParsing="false" onAction="#pressButtonStart" prefHeight="35.0" prefWidth="104.0" text="Start" />
+        <Button layoutX="248.0" layoutY="312.0" mnemonicParsing="false" onAction="#pressButtonStop" prefHeight="35.0" prefWidth="104.0" text="Stop" />
+        <Button layoutX="248.0" layoutY="271.0" mnemonicParsing="false" onAction="#pressButtonReset" prefHeight="35.0" prefWidth="104.0" text="Reset" />
+        <Text fx:id="time" layoutX="19.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="561.13671875">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Text>
+      <TextField fx:id="timeM" layoutX="247.0" layoutY="181.0" prefHeight="38.0" prefWidth="53.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font></TextField>
+      <TextField fx:id="timeS" layoutX="300.0" layoutY="181.0" prefHeight="38.0" prefWidth="53.0" text="0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+    </AnchorPane>
+</VBox>
